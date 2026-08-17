@@ -120,7 +120,8 @@ function processHtmlFile(filePath, destPath) {
   const sortedKeys = Object.keys(pathReplacements).sort((a, b) => b.length - a.length);
   for (const search of sortedKeys) {
     const replace = pathReplacements[search];
-    const regex = new RegExp(search.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g');
+    const escapedSearch = search.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const regex = new RegExp('(?:\\.\\./)*' + escapedSearch, 'g');
     html = html.replace(regex, replace);
   }
 
