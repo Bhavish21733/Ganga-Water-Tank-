@@ -82,9 +82,45 @@ rootFiles.forEach(file => {
 });
 
 // 6. Process HTML Files
+
+const pathReplacements = {
+  'assets/images/logo.png': '{{img:logo}}',
+  '../assets/images/logo.png': '{{img:logo}}',
+  'assets/images/logo-footer.png': '{{img:logoFooter}}',
+  '../assets/images/logo-footer.png': '{{img:logoFooter}}',
+  'assets/images/hero_cleaning_tank.jpg': '{{img:heroHome}}',
+  '../assets/images/hero_cleaning_tank.jpg': '{{img:heroHome}}',
+  'assets/images/about_hero_clean.jpg': '{{img:heroAbout}}',
+  'assets/images/services_hero_clean.jpg': '{{img:heroServices}}',
+  'assets/images/ganga-residential-water-tank-cleaning.jpg': '{{img:residential}}',
+  '../assets/images/ganga-residential-water-tank-cleaning.jpg': '{{img:residential}}',
+  'assets/images/ganga-commercial-water-tank-cleaning.jpg': '{{img:commercial}}',
+  '../assets/images/ganga-commercial-water-tank-cleaning.jpg': '{{img:commercial}}',
+  'assets/images/ganga-overhead-tank-cleaning.jpg': '{{img:overhead}}',
+  '../assets/images/ganga-overhead-tank-cleaning.jpg': '{{img:overhead}}',
+  'assets/images/ganga-underground-tank-cleaning.jpg': '{{img:underground}}',
+  '../assets/images/ganga-underground-tank-cleaning.jpg': '{{img:underground}}',
+  'assets/images/ganga-industrial-tank-cleaning.jpg': '{{img:industrial}}',
+  '../assets/images/ganga-industrial-tank-cleaning.jpg': '{{img:industrial}}',
+  'assets/images/ganga-sump-sintex-tank-cleaning.jpg': '{{img:sumpSintex}}',
+  '../assets/images/ganga-sump-sintex-tank-cleaning.jpg': '{{img:sumpSintex}}',
+  'assets/images/ganga-blog-why-regular-water-tank-cleaning.jpg': '{{img:blog1}}',
+  'assets/images/ganga-blog-why-regular-water-tank-cleaning.jpg?v=2': '{{img:blog1}}',
+  '../assets/images/ganga-blog-why-regular-water-tank-cleaning.jpg': '{{img:blog1}}',
+  '../assets/images/ganga-blog-why-regular-water-tank-cleaning.jpg?v=2': '{{img:blog1}}',
+  'assets/images/ganga-blog-how-often-clean-water-tank.jpg': '{{img:blog2}}',
+  'assets/images/ganga-blog-how-often-clean-water-tank.jpg?v=2': '{{img:blog2}}',
+  '../assets/images/ganga-blog-how-often-clean-water-tank.jpg': '{{img:blog2}}',
+  '../assets/images/ganga-blog-how-often-clean-water-tank.jpg?v=2': '{{img:blog2}}',
+};
+
 function processHtmlFile(filePath, destPath) {
   if (!fs.existsSync(filePath)) return;
   let html = fs.readFileSync(filePath, 'utf-8');
+  for (const [search, replace] of Object.entries(pathReplacements)) {
+    const regex = new RegExp(search.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g');
+    html = html.replace(regex, replace);
+  }
 
   // Replace {{img:key}}
   html = html.replace(/\{\{img:([a-zA-Z0-9]+)\}\}/g, (match, key) => {
