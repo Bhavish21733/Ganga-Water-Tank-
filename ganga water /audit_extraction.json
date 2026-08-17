@@ -1,0 +1,235 @@
+{
+  "index.html": {
+    "title": "Ganga Water Tank Cleaning Services | Professional Tank Cleaning in Hyderabad",
+    "description": "Professional water tank cleaning services in Hyderabad \u2014 Residential, Commercial, Overhead, Underground, Industrial & Sump tank cleaning. 24/7 emergency service. Call 093810 23251.",
+    "h1": [
+      "Cleaner Tanks.<br><span>Better Water.</span>"
+    ],
+    "h2": [
+      "Comprehensive Water Tank Cleaning for Every Need",
+      "Professional Service You Can Rely On",
+      "Simple, Professional Process in 4 Steps",
+      "Need Water Tank Cleaning Right Away?",
+      "What Our Customers Say",
+      "A Closer Look at Professional Tank Cleaning",
+      "Practical Advice for Cleaner Water Storage",
+      "Ready to Book Your Tank Cleaning?"
+    ],
+    "schema_count": 2,
+    "schemas": [
+      "\n  {\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"WebSite\",\n    \"name\": \"Ganga Water Tank Cleaning Services\",\n    \"url\": \"https://gangawatertankcleaning.com/\",\n    \"potentialAction\": {\n      \"@type\": \"SearchAction\",\n      \"target\": \"https://gangawatertankcleaning.com/search?q={search_term_string}\",\n      \"query-input\": \"required name=search_term_string\"\n    }\n  }\n  ",
+      "\n  {\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"LocalBusiness\",\n    \"name\": \"Ganga Water Tank Cleaning Services\",\n    \"image\": \"https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=85&auto=format&fit=crop\",\n    \"url\": \"https://gangawatertankcleaning.com/\",\n    \"telephone\": \"+919381023251\",\n    \"priceRange\": \"$$\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"streetAddress\": \"421, Rd No 19, Jubilee Hills\",\n      \"addressLocality\": \"Hyderabad\",\n      \"addressRegion\": \"Telangana\",\n      \"postalCode\": \"500033\",\n      \"addressCountry\": \"IN\"\n    },\n    \"openingHoursSpecification\": {\n      \"@type\": \"OpeningHoursSpecification\",\n      \"dayOfWeek\": [\n        \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\", \"Sunday\"\n      ],\n      \"opens\": \"00:00\",\n      \"closes\": \"23:59\"\n    }\n  }\n  "
+    ]
+  },
+  "about-us.html": {
+    "title": "About Us | Ganga Water Tank Cleaning Services \u2014 Hyderabad",
+    "description": "Learn about Ganga Water Tank Cleaning Services \u2014 professional water tank cleaning in Jubilee Hills, Hyderabad. Experienced team, all tank types, 24/7 emergency service.",
+    "h1": [
+      "Professional Water Tank Cleaning With Hygiene at the Core"
+    ],
+    "h2": [
+      "Ensuring Safe, Hygienic Water for Every Household and Business",
+      "Six Specialised Cleaning Services",
+      "What Sets Us Apart",
+      "Ready to Book a Professional Cleaning?"
+    ],
+    "schema_count": 1,
+    "schemas": [
+      "\n    {\n      \"@context\": \"https://schema.org\",\n      \"@graph\": [\n        {\n          \"@type\": \"LocalBusiness\",\n          \"name\": \"Ganga Water Tank Cleaning Services\",\n          \"image\": \"https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&q=85&auto=format&fit=crop\",\n          \"@id\": \"https://gangawatertankcleaning.com\",\n          \"url\": \"https://gangawatertankcleaning.com/about-us.html\",\n          \"telephone\": \"+919381023251\",\n          \"address\": {\n            \"@type\": \"PostalAddress\",\n            \"streetAddress\": \"421, Rd No 19, Jubilee Hills\",\n            \"addressLocality\": \"Hyderabad\",\n            \"addressRegion\": \"Telangana\",\n            \"postalCode\": \"500033\",\n            \"addressCountry\": \"IN\"\n          }\n        },\n        {\n          \"@type\": \"BreadcrumbList\",\n          \"itemListElement\": [\n            {\n              \"@type\": \"ListItem\",\n              \"position\": 1,\n              \"name\": \"Home\",\n              \"item\": \"https://gangawatertankcleaning.com/\"\n            },\n            {\n              \"@type\": \"ListItem\",\n              \"position\": 2,\n              \"name\": \"About Us\",\n              \"item\": \"https://gangawatertankcleaning.com/about-us.html\"\n            }\n          ]\n        }\n      ]\n    }\n    "
+    ]
+  },
+  "services.html": {
+    "title": "Our Services | Water Tank Cleaning Services in Hyderabad | Ganga",
+    "description": "Professional water tank cleaning services in Hyderabad \u2014 Residential, Commercial, Overhead, Underground, Industrial & Sump/Sintex tank cleaning. 24/7 emergency. Call now.",
+    "h1": [
+      "Professional Water Tank Cleaning for Every Tank Type"
+    ],
+    "h2": [
+      "Residential Water Tank Cleaning",
+      "Commercial Water Tank Cleaning",
+      "Overhead Tank Cleaning",
+      "Underground Tank Cleaning",
+      "Industrial Tank Cleaning",
+      "Sump & Sintex Tank Cleaning",
+      "How We Clean Your Tank",
+      "Ready to Book Your Tank Cleaning Service?"
+    ],
+    "schema_count": 2,
+    "schemas": [
+      "\n  {\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"ItemList\",\n    \"itemListElement\": [\n      {\n        \"@type\": \"Service\",\n        \"name\": \"Residential Water Tank Cleaning\",\n        \"description\": \"Ensuring clean, safe drinking water for families. Thorough cleaning of plastic, concrete and FRP residential tanks.\",\n        \"provider\": {\n          \"@type\": \"LocalBusiness\",\n          \"name\": \"Ganga Water Tank Cleaning Services\",\n          \"telephone\": \"+919381023251\",\n          \"address\": \"421, Rd No 19, Jubilee Hills, Hyderabad, Telangana 500033\"\n        }\n      },\n      {\n        \"@type\": \"Service\",\n        \"name\": \"Commercial Water Tank Cleaning\",\n        \"description\": \"For offices, hotels, apartment complexes and commercial buildings. Minimal disruption cleaning.\",\n        \"provider\": {\n          \"@type\": \"LocalBusiness\",\n          \"name\": \"Ganga Water Tank Cleaning Services\"\n        }\n      },\n      {\n        \"@type\": \"Service\",\n        \"name\": \"Overhead Tank Cleaning\",\n        \"description\": \"Specialised cleaning for elevated overhead tanks. Safe access equipment. Removes scale, biofilm and contaminants.\",\n        \"provider\": {\n          \"@type\": \"LocalBusiness\",\n          \"name\": \"Ganga Water Tank Cleaning Services\"\n        }\n      },\n      {\n        \"@type\": \"Service\",\n        \"name\": \"Underground Tank Cleaning\",\n        \"description\": \"Professional cleaning of underground sumps, cisterns and storage tanks. Complete dewatering, cleaning, disinfection.\",\n        \"provider\": {\n          \"@type\": \"LocalBusiness\",\n          \"name\": \"Ganga Water Tank Cleaning Services\"\n        }\n      },\n      {\n        \"@type\": \"Service\",\n        \"name\": \"Industrial Tank Cleaning\",\n        \"description\": \"Large-scale industrial water storage tank cleaning for factories, manufacturing plants and large facilities.\",\n        \"provider\": {\n          \"@type\": \"LocalBusiness\",\n          \"name\": \"Ganga Water Tank Cleaning Services\"\n        }\n      },\n      {\n        \"@type\": \"Service\",\n        \"name\": \"Sump & Sintex Tank Cleaning\",\n        \"description\": \"Specialised cleaning for sumps and Sintex plastic tanks. Complete interior hygiene restoration.\",\n        \"provider\": {\n          \"@type\": \"LocalBusiness\",\n          \"name\": \"Ganga Water Tank Cleaning Services\"\n        }\n      }\n    ]\n  }\n  ",
+      "\n  {\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"BreadcrumbList\",\n    \"itemListElement\": [{\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://gangawatertankcleaning.com/\"\n    },{\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Services\",\n      \"item\": \"https://gangawatertankcleaning.com/services.html\"\n    }]\n  }\n  "
+    ]
+  },
+  "gallery.html": {
+    "title": "Gallery | Water Tank Cleaning Work in Hyderabad | Ganga",
+    "description": "View our gallery of professional water tank cleaning work across Hyderabad. Residential, commercial, overhead, underground, industrial and Sintex tank cleaning.",
+    "h1": [
+      "A Closer Look at Professional Water Tank Cleaning"
+    ],
+    "h2": [
+      "Browse Our Work",
+      "Ready to Book a Tank Cleaning?",
+      "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><polyline points=\"12 6 12 12 16 14\"></polyline></svg>\n                        24/7 Emergency Service Available"
+    ],
+    "schema_count": 1,
+    "schemas": [
+      "\n    {\n      \"@context\": \"https://schema.org\",\n      \"@graph\": [\n        {\n          \"@type\": \"LocalBusiness\",\n          \"name\": \"Ganga Water Tank Cleaning Services\",\n          \"image\": \"https://gangawatertankcleaning.com/logo.png\",\n          \"url\": \"https://gangawatertankcleaning.com\",\n          \"telephone\": \"+919381023251\",\n          \"address\": {\n            \"@type\": \"PostalAddress\",\n            \"streetAddress\": \"421, Rd No 19, Jubilee Hills\",\n            \"addressLocality\": \"Hyderabad\",\n            \"addressRegion\": \"Telangana\",\n            \"postalCode\": \"500033\",\n            \"addressCountry\": \"IN\"\n          }\n        },\n        {\n          \"@type\": \"BreadcrumbList\",\n          \"itemListElement\": [\n            {\n              \"@type\": \"ListItem\",\n              \"position\": 1,\n              \"name\": \"Home\",\n              \"item\": \"https://gangawatertankcleaning.com/\"\n            },\n            {\n              \"@type\": \"ListItem\",\n              \"position\": 2,\n              \"name\": \"Gallery\",\n              \"item\": \"https://gangawatertankcleaning.com/gallery.html\"\n            }\n          ]\n        }\n      ]\n    }\n    "
+    ]
+  },
+  "blog.html": {
+    "title": "Water Tank Care Blog | Practical Advice | Ganga Hyderabad",
+    "description": "Expert advice on water tank cleaning, maintenance and hygiene. Practical guides for homeowners and businesses in Hyderabad by Ganga Water Tank Cleaning Services.",
+    "h1": [
+      "Practical Advice for Cleaner Water Storage"
+    ],
+    "h2": [
+      "All Articles",
+      "Need Water Tank Cleaning in Hyderabad?"
+    ],
+    "schema_count": 1,
+    "schemas": [
+      "\n  {\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"Blog\",\n    \"name\": \"Water Tank Care Blog - Ganga Water Tank Cleaning Services\",\n    \"description\": \"Expert advice on water tank cleaning, maintenance and hygiene in Hyderabad.\",\n    \"publisher\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Ganga Water Tank Cleaning Services\",\n      \"logo\": {\n        \"@type\": \"ImageObject\",\n        \"url\": \"https://gangawatertankcleaning.com/logo.png\"\n      }\n    }\n  }\n  "
+    ]
+  },
+  "contact-us.html": {
+    "title": "Contact Us | Ganga Water Tank Cleaning Services | Hyderabad",
+    "description": "Contact Ganga Water Tank Cleaning Services in Jubilee Hills, Hyderabad. Call 093810 23251 or WhatsApp for residential, commercial and industrial tank cleaning enquiries.",
+    "h1": [
+      "Need Water Tank Cleaning? We're Ready to Help."
+    ],
+    "h2": [
+      "Phone",
+      "WhatsApp",
+      "Address",
+      "Send Us an Enquiry",
+      "Need Emergency Tank Cleaning?"
+    ],
+    "schema_count": 2,
+    "schemas": [
+      "\n    {\n      \"@context\": \"https://schema.org\",\n      \"@type\": \"LocalBusiness\",\n      \"name\": \"Ganga Water Tank Cleaning Services\",\n      \"image\": \"https://gangawatertankcleaning.com/images/logo.png\",\n      \"telephone\": \"+919381023251\",\n      \"url\": \"https://gangawatertankcleaning.com\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"streetAddress\": \"421, Rd No 19, Jubilee Hills\",\n        \"addressLocality\": \"Hyderabad\",\n        \"addressRegion\": \"Telangana\",\n        \"postalCode\": \"500033\",\n        \"addressCountry\": \"IN\"\n      },\n      \"geo\": {\n        \"@type\": \"GeoCoordinates\",\n        \"latitude\": 17.4325,\n        \"longitude\": 78.4070\n      },\n      \"openingHoursSpecification\": {\n        \"@type\": \"OpeningHoursSpecification\",\n        \"dayOfWeek\": [\n          \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\", \"Sunday\"\n        ],\n        \"opens\": \"00:00\",\n        \"closes\": \"23:59\"\n      }\n    }\n    ",
+      "\n    {\n      \"@context\": \"https://schema.org\",\n      \"@type\": \"BreadcrumbList\",\n      \"itemListElement\": [{\n        \"@type\": \"ListItem\",\n        \"position\": 1,\n        \"name\": \"Home\",\n        \"item\": \"https://gangawatertankcleaning.com/\"\n      },{\n        \"@type\": \"ListItem\",\n        \"position\": 2,\n        \"name\": \"Contact Us\",\n        \"item\": \"https://gangawatertankcleaning.com/contact-us.html\"\n      }]\n    }\n    "
+    ]
+  },
+  "privacy-policy.html": {
+    "title": "Privacy Policy | Ganga Water Tank Cleaning Services",
+    "description": "Privacy Policy for Ganga Water Tank Cleaning Services. Learn how we handle enquiry information, WhatsApp communications and website data.",
+    "h1": [
+      "Privacy Policy"
+    ],
+    "h2": [
+      "1. About This Policy",
+      "2. Information We Collect",
+      "3. How We Use Information",
+      "4. WhatsApp Communications",
+      "5. Cookies & Analytics",
+      "6. Third-Party Services",
+      "7. Data Security",
+      "8. Data Retention",
+      "9. Your Rights",
+      "10. Children's Privacy",
+      "11. Changes to Policy",
+      "12. Contact Us"
+    ],
+    "schema_count": 1,
+    "schemas": [
+      "\n    {\n      \"@context\": \"https://schema.org\",\n      \"@type\": \"WebPage\",\n      \"name\": \"Privacy Policy\",\n      \"description\": \"Privacy Policy for Ganga Water Tank Cleaning Services.\",\n      \"publisher\": {\n        \"@type\": \"LocalBusiness\",\n        \"name\": \"Ganga Water Tank Cleaning Services\"\n      }\n    }\n    "
+    ]
+  },
+  "terms-and-conditions.html": {
+    "title": "Terms & Conditions | Ganga Water Tank Cleaning Services",
+    "description": "Terms and Conditions for using the Ganga Water Tank Cleaning Services website and enquiring about our services.",
+    "h1": [
+      "Terms & Conditions"
+    ],
+    "h2": [
+      "1. Acceptance of Terms",
+      "2. Website Use",
+      "3. Service Enquiries",
+      "4. WhatsApp Communication",
+      "5. Accuracy of Information",
+      "6. Intellectual Property",
+      "7. Third-Party Links",
+      "8. Liability Limitation",
+      "9. Service Availability",
+      "10. Pricing",
+      "11. Changes",
+      "12. Governing Law",
+      "13. Contact Information"
+    ],
+    "schema_count": 1,
+    "schemas": [
+      "\n    {\n      \"@context\": \"https://schema.org\",\n      \"@type\": \"WebPage\",\n      \"name\": \"Terms & Conditions\",\n      \"description\": \"Terms and Conditions for Ganga Water Tank Cleaning Services.\",\n      \"publisher\": {\n        \"@type\": \"LocalBusiness\",\n        \"name\": \"Ganga Water Tank Cleaning Services\"\n      }\n    }\n    "
+    ]
+  },
+  "404.html": {
+    "title": "Page Not Found | Ganga Water Tank Cleaning Services",
+    "description": "",
+    "h1": [
+      "Page Not Found"
+    ],
+    "h2": [],
+    "schema_count": 0,
+    "schemas": []
+  },
+  "blog/why-regular-water-tank-cleaning-is-important.html": {
+    "title": "Why Regular Water Tank Cleaning Is Important | Ganga Water Tank Cleaning",
+    "description": "Unclean water tanks breed bacteria, algae and sediment that affect your water quality. Learn why regular professional tank cleaning is essential for healthy water.",
+    "h1": [
+      "Why Regular Water Tank Cleaning Is Important for Healthy Water Storage"
+    ],
+    "h2": [
+      "The Hidden Dangers of an Unclean Water Tank",
+      "What Grows in Your Water Tank?",
+      "Health Risks of Dirty Tank Water",
+      "How Often Should You Clean?",
+      "What Does Professional Tank Cleaning Involve?",
+      "Signs Your Tank Needs Immediate Cleaning"
+    ],
+    "schema_count": 2,
+    "schemas": [
+      "\n  {\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"BreadcrumbList\",\n    \"itemListElement\": [{\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://gangawatertankcleaning.com/\"\n    },{\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Blog\",\n      \"item\": \"https://gangawatertankcleaning.com/blog.html\"\n    },{\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Why Regular Water Tank Cleaning Is Important for Healthy Water Storage\"\n    }]\n  }\n  ",
+      "\n  {\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"BlogPosting\",\n    \"mainEntityOfPage\": {\n      \"@type\": \"WebPage\",\n      \"@id\": \"https://gangawatertankcleaning.com/blog/why-regular-water-tank-cleaning-is-important.html\"\n    },\n    \"headline\": \"Why Regular Water Tank Cleaning Is Important for Healthy Water Storage\",\n    \"description\": \"Unclean water tanks breed bacteria, algae and sediment that affect your water quality. Learn why regular professional tank cleaning is essential for healthy water.\",\n    \"image\": \"https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&q=80\",  \n    \"author\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Ganga Water Tank Cleaning Services\"\n    },  \n    \"publisher\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Ganga Water Tank Cleaning Services\",\n      \"logo\": {\n        \"@type\": \"ImageObject\",\n        \"url\": \"https://gangawatertankcleaning.com/images/logo.png\"\n      }\n    },\n    \"datePublished\": \"2025-08-01\",\n    \"dateModified\": \"2025-08-01\"\n  }\n  "
+    ]
+  },
+  "blog/how-often-should-you-clean-your-water-tank.html": {
+    "title": "How Often Should You Clean Your Water Tank? | Ganga Water Tank Cleaning",
+    "description": "How often to clean a water tank depends on tank type, usage and location. Our guide covers recommended cleaning frequency for homes and businesses in Hyderabad.",
+    "h1": [
+      "How Often Should You Clean Your Water Tank?"
+    ],
+    "h2": [
+      "The General Recommendation",
+      "Factors That Affect Cleaning Frequency",
+      "Recommended Cleaning Schedule by Tank Type",
+      "Warning Signs That Say 'Clean Now'",
+      "Post-Monsoon Tank Cleaning in Hyderabad",
+      "Professional vs DIY Cleaning"
+    ],
+    "schema_count": 2,
+    "schemas": [
+      "\n  {\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"BreadcrumbList\",\n    \"itemListElement\": [{\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://gangawatertankcleaning.com/\"\n    },{\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Blog\",\n      \"item\": \"https://gangawatertankcleaning.com/blog.html\"\n    },{\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"How Often Should You Clean Your Water Tank?\"\n    }]\n  }\n  ",
+      "\n  {\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"BlogPosting\",\n    \"mainEntityOfPage\": {\n      \"@type\": \"WebPage\",\n      \"@id\": \"https://gangawatertankcleaning.com/blog/how-often-should-you-clean-your-water-tank.html\"\n    },\n    \"headline\": \"How Often Should You Clean Your Water Tank?\",\n    \"description\": \"How often to clean a water tank depends on tank type, usage and location. Our guide covers recommended cleaning frequency for homes and businesses in Hyderabad.\",\n    \"image\": \"https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80\",  \n    \"author\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Ganga Water Tank Cleaning Services\"\n    },  \n    \"publisher\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Ganga Water Tank Cleaning Services\",\n      \"logo\": {\n        \"@type\": \"ImageObject\",\n        \"url\": \"https://gangawatertankcleaning.com/images/logo.png\"\n      }\n    },\n    \"datePublished\": \"2025-08-08\",\n    \"dateModified\": \"2025-08-08\"\n  }\n  "
+    ]
+  },
+  "blog/overhead-vs-underground-water-tank-cleaning.html": {
+    "title": "Overhead vs Underground Tank Cleaning | Ganga Water Tank Cleaning Hyderabad",
+    "description": "Overhead and underground water tanks require different cleaning approaches. Learn the key differences, challenges and best practices for each tank type.",
+    "h1": [
+      "Overhead vs Underground Water Tank Cleaning: What Should You Know?"
+    ],
+    "h2": [
+      "Understanding Your Water Storage System",
+      "Overhead Tank Cleaning: Key Considerations",
+      "Underground Tank / Sump Cleaning: Key Considerations",
+      "Which Needs More Frequent Cleaning?",
+      "The Cleaning Process: What to Expect",
+      "Why Professional Cleaning Matters for Both",
+      "Maintaining Both Tanks Between Cleanings"
+    ],
+    "schema_count": 2,
+    "schemas": [
+      "\n  {\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"BreadcrumbList\",\n    \"itemListElement\": [{\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://gangawatertankcleaning.com/\"\n    },{\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Blog\",\n      \"item\": \"https://gangawatertankcleaning.com/blog.html\"\n    },{\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Overhead vs Underground Water Tank Cleaning: What Should You Know?\"\n    }]\n  }\n  ",
+      "\n  {\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"BlogPosting\",\n    \"mainEntityOfPage\": {\n      \"@type\": \"WebPage\",\n      \"@id\": \"https://gangawatertankcleaning.com/blog/overhead-vs-underground-water-tank-cleaning.html\"\n    },\n    \"headline\": \"Overhead vs Underground Water Tank Cleaning: What Should You Know?\",\n    \"description\": \"Overhead and underground water tanks require different cleaning approaches. Learn the key differences, challenges and best practices for each tank type.\",\n    \"image\": \"https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1200&q=80\",  \n    \"author\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Ganga Water Tank Cleaning Services\"\n    },  \n    \"publisher\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Ganga Water Tank Cleaning Services\",\n      \"logo\": {\n        \"@type\": \"ImageObject\",\n        \"url\": \"https://gangawatertankcleaning.com/images/logo.png\"\n      }\n    },\n    \"datePublished\": \"2025-08-12\",\n    \"dateModified\": \"2025-08-12\"\n  }\n  "
+    ]
+  }
+}

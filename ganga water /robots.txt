@@ -1,0 +1,11 @@
+# Ganga Water Tank Cleaning Services — robots.txt
+# https://gangawatertankcleaning.com
+
+User-agent: *
+Allow: /
+
+# Disallow system files
+Disallow: /.netlify/
+
+# Sitemap location
+Sitemap: https://gangawatertankcleaning.com/sitemap.xml

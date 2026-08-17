@@ -1,0 +1,269 @@
+/* ============================================================
+   GANGA — ANIMATIONS & MOTION SYSTEM
+   ============================================================ */
+
+/* ── HERO ENTRANCE ──────────────────────────────────────────── */
+@keyframes heroImageSettle {
+  from { transform: scale(1.06); }
+  to   { transform: scale(1); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-32px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(32px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.92); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+/* ── PROCESS LINE DRAW ──────────────────────────────────────── */
+@keyframes drawLine {
+  from { width: 0; }
+  to   { width: 100%; }
+}
+
+@keyframes drawLineV {
+  from { height: 0; }
+  to   { height: 100%; }
+}
+
+/* ── WAVE / WATER MOTION ────────────────────────────────────── */
+@keyframes waveSlide {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes floatY {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-8px); }
+}
+
+/* ── PULSE ──────────────────────────────────────────────────── */
+@keyframes pulseSoft {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.65; }
+}
+
+@keyframes ripple {
+  0%   { transform: scale(0.85); opacity: 0.7; }
+  100% { transform: scale(2.2);  opacity: 0; }
+}
+
+/* ── STAGGER UTILITY ────────────────────────────────────────── */
+.stagger-1 { animation-delay: 0.05s; }
+.stagger-2 { animation-delay: 0.12s; }
+.stagger-3 { animation-delay: 0.20s; }
+.stagger-4 { animation-delay: 0.28s; }
+.stagger-5 { animation-delay: 0.36s; }
+.stagger-6 { animation-delay: 0.44s; }
+
+/* ── HERO ANIMATION CLASSES ─────────────────────────────────── */
+.hero-bg-img {
+  animation: heroImageSettle 1.4s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.hero-badge-anim {
+  animation: fadeInDown 0.55s cubic-bezier(0.22,1,0.36,1) 0.25s both;
+}
+
+.hero-title-anim {
+  animation: fadeInUp 0.70s cubic-bezier(0.22,1,0.36,1) 0.40s both;
+}
+
+.hero-desc-anim {
+  animation: fadeInUp 0.65s cubic-bezier(0.22,1,0.36,1) 0.55s both;
+}
+
+.hero-cta-anim {
+  animation: fadeInUp 0.60s cubic-bezier(0.22,1,0.36,1) 0.70s both;
+}
+
+.hero-trust-anim {
+  animation: fadeIn 0.55s ease 0.90s both;
+}
+
+/* ── SCROLL REVEAL ──────────────────────────────────────────── */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.65s cubic-bezier(0.22, 1, 0.36, 1),
+              transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+
+.reveal.from-left {
+  transform: translateX(-28px);
+}
+
+.reveal.from-right {
+  transform: translateX(28px);
+}
+
+.reveal.from-scale {
+  transform: scale(0.94);
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translate(0) scale(1);
+}
+
+/* ── CARD HOVER INTERACTIONS ────────────────────────────────── */
+.hover-lift {
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-card-hover);
+}
+
+/* ── GALLERY IMAGE ZOOM ─────────────────────────────────────── */
+.gallery-img-wrap {
+  overflow: hidden;
+}
+.gallery-img-wrap img {
+  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.gallery-img-wrap:hover img {
+  transform: scale(1.06);
+}
+
+/* ── BUTTON MICRO INTERACTIONS ──────────────────────────────── */
+.btn {
+  transition: transform var(--transition-fast),
+              box-shadow var(--transition-fast),
+              background-color var(--transition-fast),
+              border-color var(--transition-fast),
+              color var(--transition-fast);
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+/* ── WAVE DECORATION ────────────────────────────────────────── */
+.wave-wrap {
+  overflow: hidden;
+  position: relative;
+  pointer-events: none;
+  line-height: 0;
+}
+
+.wave-svg {
+  width: 200%;
+  animation: waveSlide 18s linear infinite;
+}
+
+/* ── FLOAT ELEMENT ──────────────────────────────────────────── */
+.float-element {
+  animation: floatY 4s ease-in-out infinite;
+}
+
+/* ── RIPPLE BADGE ───────────────────────────────────────────── */
+.ripple-ring {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 2px solid currentColor;
+  opacity: 0;
+  animation: ripple 2.5s ease-out infinite;
+}
+.ripple-ring:nth-child(2) { animation-delay: 0.8s; }
+.ripple-ring:nth-child(3) { animation-delay: 1.6s; }
+
+/* ── COUNTER ANIMATION ──────────────────────────────────────── */
+.count-up { opacity: 0; }
+.count-up.counted { opacity: 1; }
+
+/* ── PAGE TRANSITION ─────────────────────────────────────────── */
+.page-enter {
+  animation: fadeIn 0.35s ease both;
+}
+
+/* ── PROCESS CONNECTOR ──────────────────────────────────────── */
+.process-line {
+  height: 2px;
+  background: linear-gradient(to right, var(--color-ocean), var(--color-aqua));
+  width: 0;
+  transition: width 0.8s cubic-bezier(0.22,1,0.36,1);
+}
+.process-line.visible {
+  width: 100%;
+}
+
+/* ── LOADING SKELETON ───────────────────────────────────────── */
+@keyframes shimmer {
+  0%   { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, var(--color-border) 25%, var(--color-bg-mist) 50%, var(--color-border) 75%);
+  background-size: 800px 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: var(--radius-md);
+}
+
+/* ── LIGHTBOX ANIMATIONS ────────────────────────────────────── */
+@keyframes lightboxOpen {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes lightboxImageIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+/* ── MOBILE MENU SLIDE ──────────────────────────────────────── */
+@keyframes menuSlideIn {
+  from { opacity: 0; transform: translateX(100%); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes menuSlideOut {
+  from { opacity: 1; transform: translateX(0); }
+  to   { opacity: 0; transform: translateX(100%); }
+}
+
+/* ── REDUCED MOTION OVERRIDES ───────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .hero-bg-img,
+  .hero-badge-anim,
+  .hero-title-anim,
+  .hero-desc-anim,
+  .hero-cta-anim,
+  .hero-trust-anim { animation: none; opacity: 1; }
+  .float-element { animation: none; }
+  .wave-svg { animation: none; }
+  .ripple-ring { animation: none; }
+  .process-line { transition: none; }
+  .gallery-img-wrap img { transition: none; }
+}

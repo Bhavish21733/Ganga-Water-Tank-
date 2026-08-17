@@ -1,0 +1,12 @@
+{
+  "name": "ganga-water-tank-cleaning",
+  "version": "1.0.0",
+  "description": "Static site build configuration for Netlify",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "cloudinary": "^2.10.0",
+    "dotenv": "^17.4.2"
+  }
+}
