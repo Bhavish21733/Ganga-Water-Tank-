@@ -241,14 +241,15 @@ body.page-loaded .inner-hero-ctas {
 .form-success-banner.active { max-height: 120px; opacity: 1; transform: translateY(0); }
 
 .mobile-nav-drawer {
-  right: 0 !important;
-  transform: translateX(100%);
+  left: 0 !important;
+  right: auto !important;
+  transform: translateX(-100%);
   opacity: 0;
   transition: transform var(--motion-base) var(--ease-out), opacity var(--motion-fast) var(--ease-out);
 }
 .mobile-nav-drawer.open { transform: translateX(0); opacity: 1; }
 .mobile-nav-links .nav-link {
-  opacity: 0; transform: translateX(16px);
+  opacity: 0; transform: translateX(-16px);
   transition: opacity var(--motion-base) var(--ease-out), transform var(--motion-base) var(--ease-out), color var(--motion-fast) var(--ease-out);
 }
 .mobile-nav-drawer.open .mobile-nav-links .nav-link { opacity: 1; transform: translateX(0); }
