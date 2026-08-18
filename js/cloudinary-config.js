@@ -14,6 +14,7 @@ const cloudinaryConfig = {
     underground: "ganga-water-tank-cleaning/services/underground-water-tank-cleaning",
     industrial: "ganga-water-tank-cleaning/services/industrial-water-tank-cleaning",
     sumpSintex: "ganga-water-tank-cleaning/services/sump-sintex-water-tank-cleaning",
+    emergency: "ganga-water-tank-cleaning/services/emergency-water-tank-cleaning",
 
     blog1: "ganga-water-tank-cleaning/blog/blog-regular-water-tank-cleaning",
     blog2: "ganga-water-tank-cleaning/blog/blog-water-tank-cleaning-frequency",

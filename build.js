@@ -104,6 +104,8 @@ const pathReplacements = {
   '../assets/images/ganga-industrial-tank-cleaning.jpg': '{{img:industrial}}',
   'assets/images/ganga-sump-sintex-tank-cleaning.jpg': '{{img:sumpSintex}}',
   '../assets/images/ganga-sump-sintex-tank-cleaning.jpg': '{{img:sumpSintex}}',
+  'assets/images/ganga-emergency-water-tank-cleaning.jpg': '{{img:emergency}}',
+  '../assets/images/ganga-emergency-water-tank-cleaning.jpg': '{{img:emergency}}',
   'assets/images/ganga-blog-why-regular-water-tank-cleaning.jpg': '{{img:blog1}}',
   'assets/images/ganga-blog-why-regular-water-tank-cleaning.jpg?v=2': '{{img:blog1}}',
   '../assets/images/ganga-blog-why-regular-water-tank-cleaning.jpg': '{{img:blog1}}',
