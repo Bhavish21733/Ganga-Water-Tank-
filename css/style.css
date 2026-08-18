@@ -1969,34 +1969,39 @@ textarea.form-control {
     flex-direction: column;
     text-align: center;
     gap: 0;
-    padding: var(--spacing-lg) 24px 0 24px;
+    padding: var(--spacing-lg) 24px;
+    padding-bottom: calc(var(--spacing-lg) + 76px + env(safe-area-inset-bottom, 0px));
   }
   .footer-bottom p {
     max-width: 320px;
     margin: 0 auto;
-    line-height: 1.5;
+    line-height: 1.6;
+    font-size: 0.84rem;
   }
   .footer-bottom-links {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 8px 12px;
-    width: 100%;
-    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    width: auto;
+    margin-top: 18px;
   }
-  .footer-bottom-links > a,
+  .footer-bottom-links > a {
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 0.84rem;
+    padding: 0;
+  }
   .footer-credit {
+    width: 100%;
     display: block;
     text-align: center;
     white-space: nowrap;
-    font-size: 0.85rem;
-  }
-  .footer-bottom-links > a {
-    padding: 8px 0;
-  }
-  .footer-credit {
-    grid-column: 1 / -1;
-    padding: 8px 0;
-    margin-top: 8px;
+    font-size: 0.8rem;
+    margin-top: 22px;
+    padding: 0;
   }
 }
 @media (max-width: 480px) {
