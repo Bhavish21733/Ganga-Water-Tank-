@@ -669,47 +669,51 @@ ul {
 @media (max-width: 768px) {
   .hero {
     padding: 0;
-    min-height: 85vh;
-    background: linear-gradient(90deg, rgba(3, 27, 52, 0.95) 0%, rgba(3, 27, 52, 0.8) 45%, rgba(3, 27, 52, 0.25) 80%, rgba(3, 27, 52, 0) 100%), url('../assets/images/hero-mobile-new.jpg') right center/cover no-repeat;
+    min-height: 65vh;
+    background: linear-gradient(90deg, rgba(3, 27, 52, 0.95) 0%, rgba(3, 27, 52, 0.8) 55%, rgba(3, 27, 52, 0.15) 85%, rgba(3, 27, 52, 0) 100%), url('../assets/images/hero-mobile-new.jpg') center right/cover no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
   }
   .hero > .container {
-    padding-top: var(--spacing-xl);
-    padding-bottom: var(--spacing-md);
+    padding-top: var(--spacing-lg);
+    padding-bottom: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .hero-content {
     align-items: flex-start;
+    max-width: 100%;
   }
   .hero-eyebrow {
-    font-size: 0.75rem !important;
-    margin-bottom: var(--spacing-xs) !important;
+    font-size: 0.65rem !important;
+    margin-bottom: 6px !important;
+    letter-spacing: 1px !important;
   }
   .hero h1 {
-    font-size: clamp(32px, 8vw, 42px);
-    line-height: 1.15;
-    max-width: 100%;
-    margin-bottom: 4px;
+    font-size: clamp(28px, 7.5vw, 34px);
+    line-height: 1.2;
+    max-width: 95%;
+    margin-bottom: 8px;
   }
   .hero p {
-    font-size: 1rem;
-    max-width: 100%;
-    margin-bottom: 12px;
-    line-height: 1.5;
+    font-size: 0.9rem;
+    max-width: 95%;
+    margin-bottom: 16px;
+    line-height: 1.4;
   }
   .hero-ctas {
     flex-direction: column;
     width: 100%;
-    gap: var(--spacing-sm);
-    margin-bottom: 12px;
+    gap: 10px;
+    margin-bottom: 0;
   }
   .hero-ctas .btn {
     width: 100%;
-    height: 50px;
-    padding: 0 20px;
-    border-radius: 14px;
-    font-size: 17px;
+    height: 44px;
+    padding: 0 16px;
+    border-radius: 10px;
+    font-size: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
