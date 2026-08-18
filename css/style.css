@@ -3032,3 +3032,46 @@ textarea.form-control {
 body.modal-open {
   overflow: hidden;
 }
+
+
+/* Mobile Sticky CTA Bar */
+.mobile-sticky-cta {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-sticky-cta {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--bg-white);
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.08);
+    padding: var(--spacing-sm) var(--spacing-md);
+    padding-bottom: calc(var(--spacing-sm) + env(safe-area-inset-bottom));
+    gap: var(--spacing-sm);
+    z-index: 99;
+  }
+
+  .mobile-sticky-cta .btn {
+    flex: 1;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    border-radius: var(--radius-md);
+    padding: var(--spacing-sm) var(--spacing-md);
+  }
+
+  /* Add padding to the body so content isn't hidden behind the fixed CTA */
+  body {
+    padding-bottom: calc(70px + env(safe-area-inset-bottom));
+  }
+}
+
+/* Homepage View All Services CTA */
+.services-cta {
+  text-align: center;
+  margin-top: var(--spacing-xl);
+  width: 100%;
+}
