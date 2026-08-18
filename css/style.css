@@ -1966,6 +1966,8 @@ textarea.form-control {
   box-shadow: 0 -4px 10px rgba(15, 23, 42, 0.08);
   z-index: 1002;
   display: none;
+  padding: var(--spacing-sm) var(--spacing-md);
+  padding-bottom: calc(var(--spacing-sm) + env(safe-area-inset-bottom, 0px));
   /* Motion entrance handled by motion.css / motion.js */
 }
 
@@ -1973,8 +1975,6 @@ textarea.form-control {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--spacing-md);
-  padding: var(--spacing-sm) var(--spacing-md);
-  padding-bottom: calc(var(--spacing-sm) + env(safe-area-inset-bottom, 0px));
 }
 
 @media (max-width: 768px) {
@@ -2701,8 +2701,11 @@ textarea.form-control {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.6);
-  padding: 4px 0 0;
+  padding: 4px 0;
   background: var(--dark);
+  margin-top: calc(var(--spacing-sm) * -1);
+  margin-left: calc(var(--spacing-md) * -1);
+  margin-right: calc(var(--spacing-md) * -1);
 }
 
 /* Responsive overrides */
