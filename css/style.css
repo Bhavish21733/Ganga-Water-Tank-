@@ -1969,8 +1969,7 @@ textarea.form-control {
     flex-direction: column;
     text-align: center;
     gap: 0;
-    padding: var(--spacing-lg) 24px;
-    padding-bottom: calc(var(--spacing-lg) + 76px + env(safe-area-inset-bottom, 0px));
+    padding: var(--spacing-lg) 24px var(--spacing-md) 24px;
   }
   .footer-bottom p {
     max-width: 320px;
