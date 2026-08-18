@@ -905,7 +905,7 @@ ul {
   
   /* Mobile Redesign for Service Sections */
   .service-section .split-layout {
-    flex-direction: column-reverse;
+    flex-direction: column;
     gap: var(--spacing-md);
   }
   .service-section {
