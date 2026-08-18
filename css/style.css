@@ -648,6 +648,12 @@ ul {
   border-radius: calc(var(--radius-lg) - 8px);
 }
 
+/* Emergency service uses a wide promotional graphic — show it fully without cropping */
+#service-emergency .hero-image-card img {
+  height: auto;
+  object-fit: contain;
+}
+
 @media (max-width: 1024px) {
   .hero h1 {
     font-size: 2.75rem;
