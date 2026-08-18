@@ -902,8 +902,52 @@ ul {
   .split-layout {
     flex-direction: column;
   }
+  
+  /* Mobile Redesign for Service Sections */
   .service-section .split-layout {
     flex-direction: column-reverse;
+    gap: var(--spacing-md);
+  }
+  .service-section {
+    padding-bottom: var(--spacing-xl);
+    margin-bottom: var(--spacing-lg);
+    border-bottom: 1px solid var(--border);
+  }
+  .service-section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+  .service-section .hero-image-card img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: var(--radius-md);
+  }
+  .service-section .hero-content h2 {
+    font-size: 1.75rem;
+    margin-bottom: var(--spacing-xs);
+  }
+  .service-section .hero-content .benefit-tag-list {
+    margin-bottom: var(--spacing-sm);
+  }
+  .service-section .hero-content p {
+    margin-bottom: var(--spacing-sm);
+  }
+  .service-section .hero-content .check-list {
+    margin-bottom: var(--spacing-md);
+  }
+  .service-section .inner-hero-ctas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    width: 100%;
+  }
+  .service-section .inner-hero-ctas .btn {
+    flex: 1 1 calc(50% - 6px);
+    text-align: center;
+    padding: 12px 10px;
+    min-width: 140px;
+    white-space: nowrap;
   }
 }
 
