@@ -201,7 +201,14 @@ ul {
 .grid-4 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: var(--spacing-lg);
+  gap: var(--spacing-xl);
+}
+
+/* Center the 7th card on the services page grid (3+3+1 layout) */
+@media (min-width: 1024px) {
+  .services-page-grid > .service-card:nth-child(7):last-child {
+    grid-column: 2;
+  }
 }
 
 @media (max-width: 1024px) {
