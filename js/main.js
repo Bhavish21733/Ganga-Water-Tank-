@@ -28,8 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // Google Reviews Carousel
   initReviewsCarousel();
 
-  // Emergency Service Popup
-  initEmergencyPopup();
+  // Emergency Service Popup removed
+  // initEmergencyPopup();
 
   // Hero Quote Form submission handler
   const heroForm = document.getElementById('heroQuoteForm');
