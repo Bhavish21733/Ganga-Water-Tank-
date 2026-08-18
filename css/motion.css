@@ -259,11 +259,6 @@ body.page-loaded .inner-hero-ctas {
 .mobile-nav-drawer.open .mobile-nav-links .nav-link:nth-child(5) { transition-delay: 220ms; }
 .mobile-nav-drawer.open .mobile-nav-links .nav-link:nth-child(6) { transition-delay: 260ms; }
 
-.mobile-sticky-cta {
-  transition: transform var(--motion-slow) var(--ease-out), opacity var(--motion-slow) var(--ease-out);
-  transform: translateY(100%); opacity: 0;
-}
-.mobile-sticky-cta.is-visible { transform: translateY(0); opacity: 1; }
 
 .process-step { transition: opacity var(--motion-slow) var(--ease-out), transform var(--motion-slow) var(--ease-out); }
 .process-step:not(.is-visible) { opacity: 0; transform: translateY(var(--reveal-y-sm)); }

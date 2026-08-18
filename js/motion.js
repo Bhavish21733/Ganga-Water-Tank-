@@ -183,19 +183,6 @@
     }, { passive: true });
   }
 
-  /* =============================================
-     5. MOBILE STICKY CTA — Subtle Entrance
-     Appears after 1.2s or when hero scrolls past
-     ============================================= */
-  function initMobileStickyCTA() {
-    const cta = document.querySelector('.mobile-sticky-cta');
-    if (!cta) return;
-
-    // Small delay so it doesn't compete with hero entrance
-    setTimeout(() => {
-      cta.classList.add('is-visible');
-    }, 1200);
-  }
 
   /* =============================================
      6. PROCESS TIMELINE — Sequential Stagger
@@ -481,7 +468,6 @@
     initScrollReveal();
     initHeaderBehaviour();
     initHeroParallax();
-    initMobileStickyCTA();
     initProcessTimeline();
     initReviewsAutoplay();
     initScrollProgress();
