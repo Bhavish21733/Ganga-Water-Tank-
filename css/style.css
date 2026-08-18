@@ -677,7 +677,7 @@ ul {
   }
   .hero > .container {
     padding-top: var(--spacing-lg);
-    padding-bottom: 24px;
+    padding-bottom: 50px;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -691,7 +691,7 @@ ul {
     letter-spacing: 1px !important;
   }
   .hero h1 {
-    font-size: clamp(28px, 7.5vw, 34px);
+    font-size: clamp(31px, 8.5vw, 38px);
     line-height: 1.2;
     max-width: 95%;
     margin-bottom: 8px;
