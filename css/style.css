@@ -3109,3 +3109,25 @@ body.modal-open {
 .blog-card-image a:hover img {
   transform: scale(1.03);
 }
+
+
+.emergency-modal-field.has-error .form-control,
+.emergency-modal-field.has-error select,
+.emergency-modal-field.has-error textarea {
+  border-color: var(--error, #ef4444) !important;
+  background-color: #fef2f2 !important;
+}
+.emergency-modal-field.has-error .form-control:focus,
+.emergency-modal-field.has-error select:focus,
+.emergency-modal-field.has-error textarea:focus {
+  box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.1) !important;
+}
+.emergency-modal-field .error-msg {
+  display: none;
+  color: var(--error, #ef4444);
+  font-size: 0.85rem;
+  margin-top: 4px;
+}
+.emergency-modal-field.has-error .error-msg {
+  display: block;
+}
