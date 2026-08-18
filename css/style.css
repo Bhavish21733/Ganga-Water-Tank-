@@ -895,6 +895,9 @@ ul {
   .split-layout {
     flex-direction: column;
   }
+  .service-section .split-layout {
+    flex-direction: column-reverse;
+  }
 }
 
 .check-list-item {
