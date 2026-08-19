@@ -8,7 +8,7 @@ const GangaConfig = {
   phoneLink: 'tel:+919381023251',
   whatsappNumber: '+91 93810 23251',
   whatsappBaseUrl: 'https://wa.me/919381023251',
-  googleMapsUrl: 'https://maps.app.goo.gl/6JCju9vbR6Xzrkta8',
+  googleMapsUrl: 'https://maps.app.goo.gl/k1jv4RCPon2CrzXSA',
   services: [
     {
       id: 'residential-water-tank-cleaning',
