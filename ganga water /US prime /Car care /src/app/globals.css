@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-deep-navy: #062447;
+  --color-brand-navy: #0B315A;
+  --color-brand-green: #0A9B55;
+  --color-brand-dark-green: #087944;
+  --color-brand-light-green: #EAF7F0;
+  --color-brand-yellow: #F4C400;
+  --color-brand-light-bg: #F7FAF8;
+  --color-brand-border: #E2E8E5;
+  --color-brand-text: #10233F;
+  --color-brand-text-muted: #536174;
+}
+
+body {
+  background-color: white;
+  color: var(--color-brand-text);
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 800;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Custom shadow to match the floating cards in screenshot */
+.shadow-premium {
+  box-shadow: 0 10px 40px -10px rgba(6, 36, 71, 0.08);
+}
+.shadow-premium-hover {
+  box-shadow: 0 20px 40px -10px rgba(6, 36, 71, 0.12);
+}
